@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import type { Message } from '../../Shared/types/index.js';
+import type { Message } from '../../Frontend/src/types/index.js';
 import dotenv from "dotenv";
 dotenv.config();
 const openai = new OpenAI({

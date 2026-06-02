@@ -1,5 +1,5 @@
 import express from 'express';
-import { Message } from '../../Shared/types/index.js';
+import { Message } from '../types/index.js'; // 
 import { getNextMessage } from '../services/chatgbt.js';
 console.log("chat router loaded");
 const router = express.Router();

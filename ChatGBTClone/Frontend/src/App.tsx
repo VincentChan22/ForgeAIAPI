@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import type { Message } from "../../shared/types/index.js";
+import type { Message } from "./types/index.js";
 // Library for making HTTP requests
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_BASE_URL || "http://localhost:5001";
+const baseURL = import.meta.env.VITE_BASE_URL || 'http://localhost:5001';
 
 function App() {
   // Chatbot's frontend memory
